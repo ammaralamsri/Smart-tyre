@@ -1978,6 +1978,17 @@ progress {
   padding-bottom: 0.625rem;
   font-size: 1.25rem;
 }
+.tool-image {
+  width: 100%; /* This will cover the width of the column */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures the image fits nicely within the dimensions without distortion */
+}
+.tools-row {
+  align-items: center; /* Vertically center align the items */
+}
+.tools-description {
+  padding-top: 10px; /* Adds a bit of padding on top for spacing */
+}
 
 .col-form-label-sm {
   padding-top: 0.375rem;
