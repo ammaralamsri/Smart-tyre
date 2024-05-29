@@ -11014,6 +11014,13 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+.portfolio .portfolio-item img {
+  width: 100%;   /* Ensures the image is as wide as its container */
+  height: auto;  /* Maintains the aspect ratio */
+  display: block; /* Removes any extra space below the image */
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
